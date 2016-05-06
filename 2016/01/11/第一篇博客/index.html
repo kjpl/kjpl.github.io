@@ -370,16 +370,11 @@ VIM快捷键支持，方便vim党们快速的操作 （右上角设置）
       
         
 <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center">
-  <div>����ԭ����������������֧�ֽ������Ҽ���������</div>
+  <div>��������д�Ĳ������Ǿʹ���һ�°ɣ�</div>
   <button id="rewardButton", disable="enable", onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}", style="cursor: pointer; border: 0; outline: 0; border-radius: 100%; padding: 0; margin: 0; letter-spacing: normal; text-transform: none; text-indent: 0px; text-shadow: none">
     <span onmouseover="this.style.color='rgb(236,96,0)';this.style.background='rgb(204,204,204)'" onMouseOut="this.style.color='#fff';this.style.background='rgb(236,96,0)'" style="display: inline-block; width: 70px; height: 70px; border-radius: 100%; line-height: 81px; color: #fff; font: 400 35px/75px 'microsofty'; background: rgb(236,96,0)">赏</span>
   </button>
   <div id="QR" style="display: none;">
-    
-      <div id="wechat" style="display: inline-block">
-        <img id="wechat_qr" src="/uploads/IMG_0068.jpg" alt="kjpl WeChat Pay" style="width: 200px; max-width: 100%; display: inline-block"/>
-        <p>微信打赏</p>
-      </div>
     
     
       <div id="alipay" style="display: inline-block">
@@ -506,30 +501,41 @@ VIM快捷键支持，方便vim党们快速的操作 （右上角设置）
 
         <div class="links-of-author motion-element">
           
+            
+              <span class="links-of-author-item">
+                <a href="https://www.douban.com/" target="_blank" title="����">
+                  
+                    <i class="fa fa-globe"></i>
+                  
+                  ����
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://www.zhihu.com" target="_blank" title="֪��">
+                  
+                    <i class="fa fa-globe"></i>
+                  
+                  ֪��
+                </a>
+              </span>
+            
+          
         </div>
 
         
         
 
         
-        
-          <div class="links-of-blogroll motion-element">
-            <div class="links-of-blogroll-title">
-              <i class="fa fa-globe fa-fw"></i>
-              Links
-            </div>
-            <ul class="links-of-blogroll-list">
-              
-                <li class="links-of-blogroll-item">
-                  <a href="http://macshuo.com/" title="MacTalk" target="_blank">MacTalk</a>
-                </li>
-              
-                <li class="links-of-blogroll-item">
-                  <a href="http://example.com/" title="Title" target="_blank">Title</a>
-                </li>
-              
-            </ul>
-          </div>
         
 
       </section>
@@ -667,7 +673,7 @@ VIM快捷键支持，方便vim党们快速的操作 （右上角设置）
   
 
   <script type="text/javascript">
-    var duoshuoQuery = {short_name:"http://kjpl421duoshuo.com"};
+    var duoshuoQuery = {short_name:"kjpl421"};
     (function() {
       var ds = document.createElement('script');
       ds.type = 'text/javascript';ds.async = true;
@@ -690,6 +696,26 @@ VIM快捷键支持，方便vim党们快速的操作 （右上角设置）
   
   
   
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+  </script>
+
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+      for (i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+    });
+  </script>
+  <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 
   
 
