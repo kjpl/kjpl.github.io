@@ -70,6 +70,8 @@
 
 
 
+  <link rel="alternate" href="/atom.xml" title="kjpl" type="application/atom+xml" />
+
 
 
 
@@ -227,9 +229,39 @@
       
 
       
+        <li class="menu-item menu-item-search">
+          
+            <a href="#" class="st-search-show-outputs">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
     </ul>
   
 
+  
+    <div class="site-search">
+      
+  <form class="site-search-form">
+  <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
+</form>
+
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install', '-R7qeyhvyiS3i9QBdpAP','2.0.0');
+</script>
+
+
+
+    </div>
   
 </nav>
 
@@ -313,12 +345,19 @@
         </nav>
 
         
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
 
         <div class="links-of-author motion-element">
           
             
               <span class="links-of-author-item">
-                <a href="https://www.douban.com/" target="_blank" title="����">
+                <a href="https://www.douban.com/" target="_blank" title="����" rel="external nofollow">
                   
                     <i class="fa fa-globe"></i>
                   
@@ -327,7 +366,7 @@
               </span>
             
               <span class="links-of-author-item">
-                <a href="https://github.com/" target="_blank" title="GitHub">
+                <a href="https://github.com/" target="_blank" title="GitHub" rel="external nofollow">
                   
                     <i class="fa fa-github"></i>
                   
@@ -336,7 +375,7 @@
               </span>
             
               <span class="links-of-author-item">
-                <a href="http://www.zhihu.com" target="_blank" title="֪��">
+                <a href="http://www.zhihu.com" target="_blank" title="֪��" rel="external nofollow">
                   
                     <i class="fa fa-globe"></i>
                   
@@ -378,12 +417,12 @@
 </div>
 
 <div class="powered-by">
-  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+  由 <a class="theme-link" href="http://hexo.io" rel="external nofollow">Hexo</a> 强力驱动
 </div>
 
 <div class="theme-info">
   主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next" rel="external nofollow">
     NexT.Pisces
   </a>
 </div>
@@ -398,6 +437,22 @@ var _hmt = _hmt || [];
 </script>
 
         
+
+<div class="busuanzi-count">
+
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv"><i class="fa fa-user">��վ�ÿ���</i><span class="busuanzi-value" id="busuanzi_value_site_uv"></span>�˴�</span>
+  
+
+  
+    <span class="site-pv"><i class="fa fa-eye">��վ������</i><span class="busuanzi-value" id="busuanzi_value_site_pv"></span>��</span>
+  
+  
+</div>
+
+
 
         
       </div>
@@ -531,6 +586,99 @@ var _hmt = _hmt || [];
 
 
   
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("PoOGwVmb01Sigup2xP8adqPg-gzGzoHsz", "Fy9nWJ7xSBcVu4sQY3xStI1z");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
 
   
 
