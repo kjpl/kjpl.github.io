@@ -82,45 +82,39 @@
     <link href="http://www.kjpl.space/2016/01/11/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
     <id>http://www.kjpl.space/2016/01/11/第一篇博客/</id>
     <published>2016-01-11T12:02:29.000Z</published>
-    <updated>2016-05-13T10:48:39.024Z</updated>
+    <updated>2016-06-04T05:38:12.792Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/x3Q9COv.jpg&quot; alt=&quot;美女&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;MaHua_u662F_u4EC0_u4E48_3F&quot;&gt;&lt;a href=&quot;#MaHua_u662F_u4EC0_u4E48_3F&quot; class=&quot;headerlink&quot; title=&quot;MaHua是什么?&quot;&gt;&lt;/a&gt;MaHua是什么?&lt;/h2&gt;&lt;p&gt;一个在线编辑markdown文档的编辑器&lt;/p&gt;
-&lt;p&gt;向Mac下优秀的markdown编辑器mou致敬&lt;/p&gt;
-&lt;h2 id=&quot;MaHua_u6709_u54EA_u4E9B_u529F_u80FD_uFF1F&quot;&gt;&lt;a href=&quot;#MaHua_u6709_u54EA_u4E9B_u529F_u80FD_uFF1F&quot; class=&quot;headerlink&quot; title=&quot;MaHua有哪些功能？&quot;&gt;&lt;/a&gt;MaHua有哪些功能？&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;方便的&lt;code&gt;导入导出&lt;/code&gt;功能：这是一个无序的列表&lt;ul&gt;
-&lt;li&gt;直接把一个markdown的文本文件拖放到当前这个页面就可以了&lt;/li&gt;
-&lt;li&gt;导出为一个html格式的文件，样式一点也不会丢失&lt;/li&gt;
+&lt;h1 id=&quot;u4E00_u7EA7_u6807_u9898&quot;&gt;&lt;a href=&quot;#u4E00_u7EA7_u6807_u9898&quot; class=&quot;headerlink&quot; title=&quot;一级标题&quot;&gt;&lt;/a&gt;一级标题&lt;/h1&gt;&lt;p&gt;关于标题还可以用=标示，二级及其他用-标示&lt;/p&gt;
+&lt;h1 id=&quot;u5173_u4E8E_u4EE3_u7801_uFF0C_u733F_u7C7B_u6700_u5173_u6CE8_u7684&quot;&gt;&lt;a href=&quot;#u5173_u4E8E_u4EE3_u7801_uFF0C_u733F_u7C7B_u6700_u5173_u6CE8_u7684&quot; class=&quot;headerlink&quot; title=&quot;关于代码，猿类最关注的&quot;&gt;&lt;/a&gt;关于代码，猿类最关注的&lt;/h1&gt;&lt;p&gt;代码用三个`标示，后面跟上代码的语言&lt;br&gt;&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(String[] args)&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		System.out.println(&lt;span class=&quot;string&quot;&gt;&quot;你好，markdown!&quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h1 id=&quot;u5173_u4E8E_u5F3A_u8C03&quot;&gt;&lt;a href=&quot;#u5173_u4E8E_u5F3A_u8C03&quot; class=&quot;headerlink&quot; title=&quot;关于强调&quot;&gt;&lt;/a&gt;关于强调&lt;/h1&gt;&lt;p&gt;两个&lt;em&gt;或-表示加粗，一个-表示斜体，~~中划线表示的删除&lt;br&gt;这是&lt;em&gt;*加粗&lt;/em&gt;&lt;/em&gt;的–表示–&lt;br&gt;这是-斜体-的表示&lt;br&gt;这是&lt;del&gt;带中划线的文本&lt;/del&gt;&lt;/p&gt;
+&lt;h1 id=&quot;u5173_u4E8E_u8868_u683C&quot;&gt;&lt;a href=&quot;#u5173_u4E8E_u8868_u683C&quot; class=&quot;headerlink&quot; title=&quot;关于表格&quot;&gt;&lt;/a&gt;关于表格&lt;/h1&gt;&lt;p&gt;文本在在左边的:—-&lt;br&gt;文本在中间的—–&lt;br&gt;文本在右边的—-:&lt;br&gt;eg:&lt;br&gt;| 标题 1     | 标题  2       | 标题3  |&lt;br&gt;| ————- |:————-| —–:|&lt;br&gt;| 标题1    | 标题2| 标题3 |&lt;/p&gt;
+&lt;h1 id=&quot;u5173_u4E8E_u5206_u5272_u7EBF&quot;&gt;&lt;a href=&quot;#u5173_u4E8E_u5206_u5272_u7EBF&quot; class=&quot;headerlink&quot; title=&quot;关于分割线&quot;&gt;&lt;/a&gt;关于分割线&lt;/h1&gt;&lt;p&gt;用多个*或-或_等都可以表示分割线&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;u5173_u4E8E_u5217_u8868&quot;&gt;&lt;a href=&quot;#u5173_u4E8E_u5217_u8868&quot; class=&quot;headerlink&quot; title=&quot;关于列表&quot;&gt;&lt;/a&gt;关于列表&lt;/h1&gt;&lt;p&gt;无序列表用-或+和*标示&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;这是第一个&lt;/li&gt;
+&lt;li&gt;这是第二个&lt;/li&gt;
+&lt;li&gt;这是第三个&lt;br&gt;有序列表直接使用数字和.标示&lt;/li&gt;
 &lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;这是第一个有序的&lt;/li&gt;
+&lt;li&gt;这是第二个有序的&lt;/li&gt;
+&lt;li&gt;这是第三个有序的&lt;h1 id=&quot;u56FE_u7247_u3001_u94FE_u63A5&quot;&gt;&lt;a href=&quot;#u56FE_u7247_u3001_u94FE_u63A5&quot; class=&quot;headerlink&quot; title=&quot;图片、链接&quot;&gt;&lt;/a&gt;图片、链接&lt;/h1&gt;插入图片！&lt;a href=&quot;/&quot;&gt;&lt;/a&gt; []中的是图片的描述文本，（）中的是图片的地址&lt;br&gt;插入链接&lt;a href=&quot;/&quot;&gt;&lt;/a&gt;  同上，没有！号&lt;/li&gt;
+&lt;li&gt;这是一个链接：&lt;a href=&quot;http://www.kjpl.space&quot;&gt;Ryan个人博客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;另一种写法，这是博客的链接：[Ryan个人博客][&lt;a href=&quot;http://www.kjpl.space&quot;&gt;http://www.kjpl.space&lt;/a&gt;] url为链接的标记，可在其他地方赋值。&lt;/li&gt;
+&lt;li&gt;用&amp;lt;&amp;gt;亦可直接包裹链接，eg：&lt;a href=&quot;http://www.kjpl.space&quot;&gt;http://www.kjpl.space&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;这是个妹子图片&lt;img src=&quot;http://ww1.sinaimg.cn/mw690/bf3075ccgw1f4j3p914gpj20go0npwgs.jpg&quot; alt=&quot;&quot;&gt;&lt;h1 id=&quot;u5173_u4E8E_u5F15_u7528&quot;&gt;&lt;a href=&quot;#u5173_u4E8E_u5F15_u7528&quot; class=&quot;headerlink&quot; title=&quot;关于引用&quot;&gt;&lt;/a&gt;关于引用&lt;/h1&gt;引用用&amp;gt;标示&lt;blockquote&gt;
+&lt;p&gt;这是引用的格式         &lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;/li&gt;
-&lt;li&gt;编辑和预览&lt;code&gt;同步滚动&lt;/code&gt;，所见即所得（右上角设置）&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;VIM快捷键&lt;/code&gt;支持，方便vim党们快速的操作 （右上角设置）&lt;/li&gt;
-&lt;li&gt;强大的&lt;code&gt;自定义CSS&lt;/code&gt;功能，方便定制自己的展示&lt;/li&gt;
-&lt;li&gt;有数量也有质量的&lt;code&gt;主题&lt;/code&gt;,编辑器和预览区域&lt;/li&gt;
-&lt;li&gt;完美兼容&lt;code&gt;Github&lt;/code&gt;的markdown语法&lt;/li&gt;
-&lt;li&gt;预览区域&lt;code&gt;代码高亮&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;所有选项自动记忆&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;u6709_u95EE_u9898_u53CD_u9988&quot;&gt;&lt;a href=&quot;#u6709_u95EE_u9898_u53CD_u9988&quot; class=&quot;headerlink&quot; title=&quot;有问题反馈&quot;&gt;&lt;/a&gt;有问题反馈&lt;/h2&gt;&lt;p&gt;在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;邮件(kjpl1314520@gmail.com)&lt;/li&gt;
-&lt;li&gt;QQ: 1175581852&lt;/li&gt;
-&lt;li&gt;weibo: &lt;a href=&quot;http://weibo.com/u/3207624140&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;@迷糊小姐家的王先森&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;u6350_u52A9_u5F00_u53D1_u8005&quot;&gt;&lt;a href=&quot;#u6350_u52A9_u5F00_u53D1_u8005&quot; class=&quot;headerlink&quot; title=&quot;捐助开发者&quot;&gt;&lt;/a&gt;捐助开发者&lt;/h2&gt;&lt;p&gt;在兴趣的驱动下,写一个&lt;code&gt;免费&lt;/code&gt;的东西，有欣喜，也还有汗水，希望你喜欢我的作品，同时也能支持一下。&lt;br&gt;当然，有钱捧个钱场（右上角的爱心标志，支持支付宝和PayPal捐助），没钱捧个人场，谢谢各位。&lt;/p&gt;
-&lt;h2 id=&quot;u611F_u6FC0&quot;&gt;&lt;a href=&quot;#u611F_u6FC0&quot; class=&quot;headerlink&quot; title=&quot;感激&quot;&gt;&lt;/a&gt;感激&lt;/h2&gt;&lt;p&gt;感谢以下的项目,排名不分先后&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://mouapp.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;mou&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://ace.ajax.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;ace&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://jquery.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;jquery&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;u5173_u4E8E_u4F5C_u8005&quot;&gt;&lt;a href=&quot;#u5173_u4E8E_u4F5C_u8005&quot; class=&quot;headerlink&quot; title=&quot;关于作者&quot;&gt;&lt;/a&gt;关于作者&lt;/h2&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; ihubo = &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  nickName  : &lt;span class=&quot;string&quot;&gt;&quot;草依山&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  site : &lt;span class=&quot;string&quot;&gt;&quot;http://jser.me&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;class&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;Student&lt;/span&gt;（）&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;private&lt;/span&gt; String name;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;private&lt;/span&gt; String address;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
+&lt;/ol&gt;
+</content>
     
     <summary type="html">
     
       &lt;p&gt;&lt;img src=&quot;http://i.imgur.com/x3Q9COv.jpg&quot; alt=&quot;美女&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;MaHua_u662F_u4EC0_u4E48_3F&quot;&gt;&lt;a href=&quot;#MaHua_u662F_u4EC0_u4E48_3F&quot; class=&quot;
+&lt;h1 id=&quot;u4E00_u7EA7_u6807_u9898&quot;&gt;&lt;a href=&quot;#u4E00_u7EA7_u6807_u9898&quot; class=&quot;header
     
     </summary>
     
