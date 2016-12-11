@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.kjpl.space/"/>
-  <updated>2016-05-13T11:12:47.604Z</updated>
+  <updated>2016-12-11T12:22:58.941Z</updated>
   <id>http://www.kjpl.space/</id>
   
   <author>
@@ -14,6 +14,22 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试本地的文章发布</title>
+    <link href="http://www.kjpl.space/2016/12/11/%E6%B5%8B%E8%AF%95%E6%9C%AC%E5%9C%B0%E7%9A%84%E6%96%87%E7%AB%A0%E5%8F%91%E5%B8%83/"/>
+    <id>http://www.kjpl.space/2016/12/11/测试本地的文章发布/</id>
+    <published>2016-12-11T12:22:58.000Z</published>
+    <updated>2016-12-11T12:22:58.941Z</updated>
+    
+    <content type="html"></content>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>三月的心事</title>
