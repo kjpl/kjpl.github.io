@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.kjpl.space/"/>
-  <updated>2016-12-11T12:22:58.941Z</updated>
+  <updated>2017-04-16T04:05:20.664Z</updated>
   <id>http://www.kjpl.space/</id>
   
   <author>
@@ -16,15 +16,28 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>测试本地的文章发布</title>
-    <link href="http://www.kjpl.space/2016/12/11/%E6%B5%8B%E8%AF%95%E6%9C%AC%E5%9C%B0%E7%9A%84%E6%96%87%E7%AB%A0%E5%8F%91%E5%B8%83/"/>
-    <id>http://www.kjpl.space/2016/12/11/测试本地的文章发布/</id>
-    <published>2016-12-11T12:22:58.000Z</published>
-    <updated>2016-12-11T12:22:58.941Z</updated>
+    <title>Hello World</title>
+    <link href="http://www.kjpl.space/2017/04/16/hello-world/"/>
+    <id>http://www.kjpl.space/2017/04/16/hello-world/</id>
+    <published>2017-04-16T04:05:20.664Z</published>
+    <updated>2017-04-16T04:05:20.664Z</updated>
     
-    <content type="html"></content>
+    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick_Start&quot;&gt;&lt;a href=&quot;#Quick_Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create_a_new_post&quot;&gt;&lt;a href=&quot;#Create_a_new_post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Run_server&quot;&gt;&lt;a href=&quot;#Run_server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Generate_static_files&quot;&gt;&lt;a href=&quot;#Generate_static_files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Deploy_to_remote_sites&quot;&gt;&lt;a href=&quot;#Deploy_to_remote_sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+</content>
     
     <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick_Start&quot;&gt;&lt;a href=&quot;#Quick_Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create_a_new_post&quot;&gt;&lt;a href=&quot;#Create_a_new_post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot;&gt;Writing&lt;/a&gt;&lt;br&gt;
     
     </summary>
     
@@ -36,16 +49,14 @@
     <link href="http://www.kjpl.space/2016/05/13/%E4%B8%89%E6%9C%88%E7%9A%84%E5%BF%83%E4%BA%8B/"/>
     <id>http://www.kjpl.space/2016/05/13/三月的心事/</id>
     <published>2016-05-13T11:10:39.000Z</published>
-    <updated>2016-05-13T11:12:47.604Z</updated>
+    <updated>2017-04-16T04:04:43.139Z</updated>
     
-    <content type="html">&lt;p&gt;三月里有的不是无限春光&lt;br&gt;还有那昏昏欲睡的沉默&lt;br&gt;倒影着不可言的心事&lt;br&gt;仿佛踽行在漫长的失眠昨夜里&lt;br&gt;妄念如此凄凄&lt;/p&gt;
-&lt;p&gt;妄念如此凄凄&lt;br&gt;仿佛踽行在漫长的失眠昨夜里&lt;br&gt;倒影着不可言的心事&lt;br&gt;还有那昏昏欲睡的沉默&lt;br&gt;三月里有的不是无限春光 &lt;/p&gt;
+    <content type="html">&lt;p&gt;三月里有的不是无限春光&lt;br&gt;还有那昏昏欲睡的沉默&lt;br&gt;倒影着不可言的心事&lt;br&gt;仿佛踽行在漫长的失眠昨夜里&lt;br&gt;妄念如此凄凄&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;妄念如此凄凄&lt;br&gt;仿佛踽行在漫长的失眠昨夜里&lt;br&gt;倒影着不可言的心事&lt;br&gt;还有那昏昏欲睡的沉默&lt;br&gt;三月里有的不是无限春光 &lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;三月里有的不是无限春光&lt;br&gt;还有那昏昏欲睡的沉默&lt;br&gt;倒影着不可言的心事&lt;br&gt;仿佛踽行在漫长的失眠昨夜里&lt;br&gt;妄念如此凄凄&lt;/p&gt;
-&lt;p&gt;妄念如此凄凄&lt;br&gt;仿佛踽行在漫长的失眠昨夜里&lt;br&gt;倒影着不可言的心事&lt;br&gt;还有那昏昏欲睡的沉默&lt;br&gt;三月里有的不是无限春
+      &lt;p&gt;三月里有的不是无限春光&lt;br&gt;还有那昏昏欲睡的沉默&lt;br&gt;倒影着不可言的心事&lt;br&gt;仿佛踽行在漫长的失眠昨夜里&lt;br&gt;妄念如此凄凄&lt;br&gt;
     
     </summary>
     
@@ -65,10 +76,9 @@
     <link href="http://www.kjpl.space/2016/05/13/%E6%88%91%E4%B8%8E%E5%9C%B0%E5%9D%9B/"/>
     <id>http://www.kjpl.space/2016/05/13/我与地坛/</id>
     <published>2016-05-13T10:53:49.000Z</published>
-    <updated>2016-05-13T11:08:22.166Z</updated>
+    <updated>2017-04-16T04:04:18.732Z</updated>
     
-    <content type="html">&lt;p&gt;提笔又放下&lt;br&gt;就算现在想起来&lt;br&gt;还是会觉得唏嘘&lt;/p&gt;
-&lt;p&gt;本该庄严肃穆的祭神处&lt;br&gt;已被那道残阳打碎&lt;br&gt;早就在风霜中残垣&lt;br&gt;就算和着春的风&lt;br&gt;依然让人潸然&lt;/p&gt;
+    <content type="html">&lt;p&gt;提笔又放下&lt;br&gt;就算现在想起来&lt;br&gt;还是会觉得唏嘘&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;本该庄严肃穆的祭神处&lt;br&gt;已被那道残阳打碎&lt;br&gt;早就在风霜中残垣&lt;br&gt;就算和着春的风&lt;br&gt;依然让人潸然&lt;/p&gt;
 &lt;p&gt;展馆里标注的位牌&lt;br&gt;泰山，黄山，会稽山……&lt;br&gt;还有那现在早已不知道的，早已经消失的山川河流&lt;br&gt;陈列的一排排的仙山神明啊&lt;br&gt;明明不到百年&lt;br&gt;却似死去了一万年&lt;br&gt;呵&lt;/p&gt;
 &lt;p&gt;斑驳着你的破落&lt;br&gt;心酸着我的执着&lt;br&gt;我于这午后走过你的角角落落&lt;br&gt;褪去的颜色，破败的大门，裂开的石狮子头&lt;br&gt;我看见收费的阿姨昏昏欲睡&lt;br&gt;我听见远处林子里有小孩子在嬉戏欢笑&lt;br&gt;……&lt;/p&gt;
 &lt;p&gt;天道无言见证沧海桑田&lt;br&gt;大道无形推动日月星辰&lt;br&gt;早就注定好的轮回&lt;br&gt;独独痴人不愿看穿&lt;br&gt;&lt;img src=&quot;http://i.imgur.com/UTDSTOV.jpg&quot; alt=&quot;地坛一角&quot;&gt;&lt;/p&gt;
@@ -76,9 +86,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;提笔又放下&lt;br&gt;就算现在想起来&lt;br&gt;还是会觉得唏嘘&lt;/p&gt;
-&lt;p&gt;本该庄严肃穆的祭神处&lt;br&gt;已被那道残阳打碎&lt;br&gt;早就在风霜中残垣&lt;br&gt;就算和着春的风&lt;br&gt;依然让人潸然&lt;/p&gt;
-&lt;p&gt;展馆里标注的位牌&lt;br&gt;泰山，黄山，会稽山……&lt;br&gt;还有那现在早已不知道的，
+      &lt;p&gt;提笔又放下&lt;br&gt;就算现在想起来&lt;br&gt;还是会觉得唏嘘&lt;br&gt;
     
     </summary>
     
@@ -98,13 +106,13 @@
     <link href="http://www.kjpl.space/2016/01/11/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
     <id>http://www.kjpl.space/2016/01/11/第一篇博客/</id>
     <published>2016-01-11T12:02:29.000Z</published>
-    <updated>2016-06-04T05:38:12.792Z</updated>
+    <updated>2017-04-16T04:05:04.272Z</updated>
     
-    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/x3Q9COv.jpg&quot; alt=&quot;美女&quot;&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/x3Q9COv.jpg&quot; alt=&quot;美女&quot;&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&quot;u4E00_u7EA7_u6807_u9898&quot;&gt;&lt;a href=&quot;#u4E00_u7EA7_u6807_u9898&quot; class=&quot;headerlink&quot; title=&quot;一级标题&quot;&gt;&lt;/a&gt;一级标题&lt;/h1&gt;&lt;p&gt;关于标题还可以用=标示，二级及其他用-标示&lt;/p&gt;
 &lt;h1 id=&quot;u5173_u4E8E_u4EE3_u7801_uFF0C_u733F_u7C7B_u6700_u5173_u6CE8_u7684&quot;&gt;&lt;a href=&quot;#u5173_u4E8E_u4EE3_u7801_uFF0C_u733F_u7C7B_u6700_u5173_u6CE8_u7684&quot; class=&quot;headerlink&quot; title=&quot;关于代码，猿类最关注的&quot;&gt;&lt;/a&gt;关于代码，猿类最关注的&lt;/h1&gt;&lt;p&gt;代码用三个`标示，后面跟上代码的语言&lt;br&gt;&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(String[] args)&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		System.out.println(&lt;span class=&quot;string&quot;&gt;&quot;你好，markdown!&quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h1 id=&quot;u5173_u4E8E_u5F3A_u8C03&quot;&gt;&lt;a href=&quot;#u5173_u4E8E_u5F3A_u8C03&quot; class=&quot;headerlink&quot; title=&quot;关于强调&quot;&gt;&lt;/a&gt;关于强调&lt;/h1&gt;&lt;p&gt;两个&lt;em&gt;或-表示加粗，一个-表示斜体，~~中划线表示的删除&lt;br&gt;这是&lt;em&gt;*加粗&lt;/em&gt;&lt;/em&gt;的–表示–&lt;br&gt;这是-斜体-的表示&lt;br&gt;这是&lt;del&gt;带中划线的文本&lt;/del&gt;&lt;/p&gt;
-&lt;h1 id=&quot;u5173_u4E8E_u8868_u683C&quot;&gt;&lt;a href=&quot;#u5173_u4E8E_u8868_u683C&quot; class=&quot;headerlink&quot; title=&quot;关于表格&quot;&gt;&lt;/a&gt;关于表格&lt;/h1&gt;&lt;p&gt;文本在在左边的:—-&lt;br&gt;文本在中间的—–&lt;br&gt;文本在右边的—-:&lt;br&gt;eg:&lt;br&gt;| 标题 1     | 标题  2       | 标题3  |&lt;br&gt;| ————- |:————-| —–:|&lt;br&gt;| 标题1    | 标题2| 标题3 |&lt;/p&gt;
+&lt;h1 id=&quot;u5173_u4E8E_u8868_u683C&quot;&gt;&lt;a href=&quot;#u5173_u4E8E_u8868_u683C&quot; class=&quot;headerlink&quot; title=&quot;关于表格&quot;&gt;&lt;/a&gt;关于表格&lt;/h1&gt;&lt;p&gt;文本在在左边的:—-&lt;br&gt;文本在中间的—–&lt;br&gt;文本在右边的—-:&lt;br&gt;eg:&lt;br&gt;| 标题 1 | 标题  2 |  标题3 |&lt;br&gt;| —- | :—- | —: |&lt;br&gt;| 标题1  | 标题2   |  标题3 |&lt;/p&gt;
 &lt;h1 id=&quot;u5173_u4E8E_u5206_u5272_u7EBF&quot;&gt;&lt;a href=&quot;#u5173_u4E8E_u5206_u5272_u7EBF&quot; class=&quot;headerlink&quot; title=&quot;关于分割线&quot;&gt;&lt;/a&gt;关于分割线&lt;/h1&gt;&lt;p&gt;用多个*或-或_等都可以表示分割线&lt;/p&gt;
 &lt;hr&gt;
 &lt;h1 id=&quot;u5173_u4E8E_u5217_u8868&quot;&gt;&lt;a href=&quot;#u5173_u4E8E_u5217_u8868&quot; class=&quot;headerlink&quot; title=&quot;关于列表&quot;&gt;&lt;/a&gt;关于列表&lt;/h1&gt;&lt;p&gt;无序列表用-或+和*标示&lt;/p&gt;
@@ -129,8 +137,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;http://i.imgur.com/x3Q9COv.jpg&quot; alt=&quot;美女&quot;&gt;&lt;/p&gt;
-&lt;h1 id=&quot;u4E00_u7EA7_u6807_u9898&quot;&gt;&lt;a href=&quot;#u4E00_u7EA7_u6807_u9898&quot; class=&quot;header
+      &lt;p&gt;&lt;img src=&quot;http://i.imgur.com/x3Q9COv.jpg&quot; alt=&quot;美女&quot;&gt;&lt;br&gt;
     
     </summary>
     
@@ -138,33 +145,6 @@
     
     
       <category term="博客，Markdown，学习" scheme="http://www.kjpl.space/tags/%E5%8D%9A%E5%AE%A2%EF%BC%8CMarkdown%EF%BC%8C%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://www.kjpl.space/2016/01/10/hello-world/"/>
-    <id>http://www.kjpl.space/2016/01/10/hello-world/</id>
-    <published>2016-01-10T14:07:37.188Z</published>
-    <updated>2016-01-10T14:07:37.188Z</updated>
-    
-    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;Quick_Start&quot;&gt;&lt;a href=&quot;#Quick_Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create_a_new_post&quot;&gt;&lt;a href=&quot;#Create_a_new_post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Run_server&quot;&gt;&lt;a href=&quot;#Run_server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Generate_static_files&quot;&gt;&lt;a href=&quot;#Generate_static_files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Deploy_to_remote_sites&quot;&gt;&lt;a href=&quot;#Deploy_to_remote_sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-    
-    </summary>
-    
     
   </entry>
   
