@@ -4,7 +4,9 @@ node_js: stable
 install:
 - npm install
 before_install:
-- git submodule update --init --remote --recursive
+- export TZ='Asia/Shanghai'
+- npm install -g hexo
+- npm install -g hexo-cli
 #before_script:
 # - npm install -g gulp
 script:
@@ -25,3 +27,5 @@ only:
 env:
 global:
 - GH_REF: github.com/kjpl/kjpl.github.io.git
+after_success:
+- hexo deploy
