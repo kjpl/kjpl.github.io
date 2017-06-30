@@ -21,7 +21,7 @@ after_script:
 # E: Build LifeCycle
 branches:
 only:
-- Source
+- source
 env:
 global:
 - GH_REF: github.com/kjpl/kjpl.github.io.git
